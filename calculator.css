@@ -5,10 +5,10 @@ body{
 }
 
 .calculate{
- margin-top:10%;
-margin-left: 35%;
- margin-right: auto;
- width: 300px;
+  margin-top:10%;
+  margin-left: 35%;
+  margin-right: auto;
+  width: 300px;
   height: 400px;
   border-radius: 3%;
   background: linear-gradient(to top,rgb(52, 53, 52),rgb(104, 104, 103));
@@ -57,16 +57,67 @@ margin-left: 35%;
   color:floralwhite;
   font-size:18px;
 }
-@media all and (max-width: 575px) {
+@media screen  and (max-width:575px){
   body{
     width: 100%;
     height: 100%;
+    background:linear-gradient(to left,rgb(18, 18, 18),rgb(10, 10, 47));
   }
   .calculate{
-   margin: 0px;
-    margin-right: 0px;
+    margin-top:0%;
+    margin-left: 0px;
+    width: 406px;
+    height: 100%;
+    border-radius: 3%;
+    background: linear-gradient(to top,rgb(52, 53, 52),rgb(104, 104, 103));
+    box-shadow: 0px 0px 5px 2px #c3b9b9;
+   
   }
-  }
+  .output{
+    box-shadow: 0px 0px 5px 2px #c5c0c0;
+    height: 50px;
+    width: 360px;
+    margin-bottom:-25px ;
+    border-radius: 3px;
+    background-color: rgb(46, 45, 45);
+    color: ghostwhite;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
   
+  
+}
+.keys{
+  font-size: 70px;
+  padding: 20px;
+  padding-right: 20px;
+  margin: 25px;
+  
+}
+.button{
+  height: 60px;
+  width: 65px;
+  border-radius: 13%;
+  background-color: transparent;
+  color:floralwhite;
+  font-size:20px;
+}
+.button1{
+  width:140px;
+  height:60px;
+  border-radius: 8%;
+  background-color: transparent;
+  color:floralwhite;
+  font-size:20px;
+}
+.button2{
+  width:145px;
+  height:60px;
+  border-radius: 8%;
+  background-color: transparent;
+  color:floralwhite;
+  font-size:20px;
+}
 
-
+}
